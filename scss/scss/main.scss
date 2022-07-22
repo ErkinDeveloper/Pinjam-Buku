@@ -1,0 +1,381 @@
+@charset "UTF-8";
+@import "normalize";
+@import "./fonts";
+@import "general";
+@import "./all-blocks/all-blocks";
+
+
+
+
+
+
+
+
+
+
+// section start 
+.section__one {
+   margin-top: 80px;
+}
+
+
+.section__title {
+   text-align: center;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 200%;
+   margin-bottom: 48px;
+}
+
+
+
+.section__card {
+   flex-direction: column;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 24px;
+   padding: 30px;
+   width: 596px;
+   min-height: 228px;
+   background: #FFFFFF;
+   box-shadow: 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+   border-radius: 5px;
+}
+
+.section__text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 200%;
+}
+
+
+
+.section__hatta__card {
+   display: flex;
+   align-items: center;
+   gap: 16px;
+}
+
+.hatta__title {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 32px;
+}
+
+.hatta__title__one {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 32px;
+   color: #949494;
+}
+
+
+.section__one__wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 39px;
+
+}
+
+.section__shihab__card {
+   display: flex;
+   gap: 12px;
+   align-items: center;
+}
+
+.section__card__shihab {
+   display: flex;
+   flex-direction: column;
+   padding: 30px;
+   gap: 24px;
+   width: 596px;
+   min-height: 228px;
+   background-color: white;
+   background: #FFFFFF;
+   box-shadow: 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+   border-radius: 5px;
+}
+
+
+.section__shihab__text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 200%;
+
+}
+
+
+// section one end
+
+
+
+
+// section radio too start 
+
+
+.section__too {
+   margin-top: 100px;
+}
+
+
+.section__too__wrapper {
+   display: flex;
+   justify-content: center;
+   gap: 220px;
+
+}
+
+.section__radio {
+   display: flex;
+   align-items: center;
+   gap: 16px;
+
+}
+
+.section__too__five__hundred {
+   font-weight: 600;
+   font-size: 32px;
+   line-height: 64px;
+}
+
+.section__too__title {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 32px;
+   color: #949494;
+}
+
+.section__radio__zero {
+   display: flex;
+   align-items: center;
+   gap: 60px;
+   position: relative;
+   left: 40px;
+}
+
+.section__radio__five {
+   display: flex;
+   align-items: center;
+   gap: 54px;
+}
+
+// section radio too end 
+
+
+.section__three {
+   margin-top: 150px;
+}
+
+.section__three__wrapper {
+   display: flex;
+   justify-content: center;
+   gap: 48px;
+}
+
+
+.section__three__card {
+   width: 596px;
+   height: 280.98px;
+   background: #FFFFFF;
+   border: 1px solid #D9D9D9;
+   border-radius: 5px;
+}
+
+.section__three__guy__text {
+   padding: 30px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 32px;
+   color: #212121;
+}
+
+.section__title_justify {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+
+.section__three__title {
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 48px;
+}
+
+.section__three__title__too {
+   padding-bottom: 20px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 32px;
+   color: #949494;
+}
+
+.section__three__arrow__left {
+   position: relative;
+   right: 20px;
+   bottom: 30px;
+
+}
+
+.section__three__arrow__icon__left:hover {
+   cursor: pointer;
+
+}
+
+.section__three__arrow__icon__left:active {
+   cursor: pointer;
+   background-color: white;
+   box-shadow: 0 0 5px 8px white;
+}
+
+.section__three__arrow__icon__right {
+   position: relative;
+   left: 575px;
+   cursor: pointer;
+   bottom: 20px;
+}
+
+.section__guy__card {
+   position: relative;
+   display: flex;
+   align-items: center;
+   gap: 12px;
+   left: 30px;
+   bottom: 30px;
+
+}
+
+
+.section__three__point {
+   width: 16px;
+   height: 16px;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   background-color: #D9D9D9;
+}
+
+.section__points-wrapper {
+   margin-top: 72px;
+   display: flex;
+   align-items: center;
+   gap: 24px;
+   justify-content: center;
+}
+
+.point__blue {
+   background-color: #008F76;
+   border: none;
+}
+
+
+// section three end 
+
+
+
+//  section kagiatan start 
+.section__kegiatan {
+   margin-top: 200px;
+}
+
+
+.section__kegiatan-text {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.section__kagiatan__wrapper-img {
+   display: flex;
+   align-items: center;
+   gap: 48px;
+}
+
+
+.mewarnai__card-img {
+   background-image: url("/images/mewarnai_img.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 381px;
+   height: 340px;
+   border: 1px solid #FFFFFF;
+   border-radius: 5px;
+}
+
+.ngelapak__card-img {
+   background-image: url("/images/Ngelapak-img.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 381px;
+   height: 340px;
+   border: 1px solid #FFFFFF;
+   border-radius: 5px;
+}
+
+
+.donasi__card-img {
+   background-image: url("/images/./danasi-img.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 381px;
+   height: 340px;
+   border: 1px solid #FFFFFF;
+   border-radius: 5px;
+}
+
+//  section kagiatan end 
+
+
+
+.ingin__membantu {
+   margin-top: 100px;
+}
+
+.ingin__membantu-center {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.ingin__title {
+   font-weight: 500;
+   font-size: 28px;
+   line-height: 56px;
+}
+
+.ingin__title-one {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 40px;
+   color: #949494;
+   text-align: center;
+}
+
+.ingin__title-atau {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 200%;
+   color: #949494;
+   margin-bottom: 24px;
+}
+
+.ingin__link {
+   display: flex;
+   gap: 24px;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 48px;
+   text-decoration: none;
+   color: #008F76;
+   border: 1px solid #008F76;
+   border-radius: 20px;
+   padding: 10px 24px;
+
+}

@@ -1,0 +1,128 @@
+.nav__btn {
+   width: 101px;
+   height: 52px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 200%;
+   text-align: center;
+   color: white;
+   border: 2px solid white;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+   background-color: #008F76;
+   transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -ms-transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+
+   &:hover {
+      cursor: pointer;
+      background-color: aquamarine;
+      color: aliceblue;
+      border: none;
+   }
+
+
+}
+
+
+
+// main btn 
+
+.main__btn__wrapper {
+   margin-top: 48px;
+   display: flex;
+   gap: 50px;
+
+   justify-content: center;
+}
+
+
+.main__btn {
+   cursor: pointer;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 200%;
+   color: #FFFFFF;
+   padding: 10px 24px;
+   background: #008F76;
+   box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.015);
+   border-radius: 20px;
+   border: none;
+   transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -ms-transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+
+   &:hover {
+      background-color: rgb(0, 0, 0);
+      color: rgba(255, 255, 255, 0.318);
+
+   }
+
+
+}
+
+.main__search__icon {
+   margin-left: 12px;
+}
+
+
+.main__btn__too {
+   cursor: pointer;
+   padding: 10px 24px;
+   border: 1px solid #008F76;
+   border-radius: 20px;
+   transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -ms-transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   color: #008F76;
+
+   &:hover {
+      background: #008F76;
+      color: white;
+   }
+
+}
+
+.btn__kami {
+   margin: 48px 0 24px;
+   cursor: pointer;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 48px;
+   text-align: center;
+   color: #FFFFFF;
+   padding: 10px 24px;
+   background-color: #008F76;
+   border: 1px solid #008F76;
+   border-radius: 20px;
+   transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -ms-transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   gap: 24px;
+   display: flex;
+   align-items: center;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+
+
+
+   &:hover {
+      background-color: black;
+      color: red;
+      border: 2px dashed red
+   }
+
+}

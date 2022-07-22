@@ -1,0 +1,43 @@
+.main {
+    flex-grow: 1;
+}
+
+.main__wrapper {
+    margin-top: 200px;
+    display: block;
+    text-align: center;
+}
+
+
+.main__text__pojok {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: black;
+}
+
+.main__title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 200%;
+}
+
+
+.main__amazon {
+    color: #008F76;
+}
+
+
+.main__line {
+    position: relative;
+    top: 135px;
+    background: radial-gradient(35.68% 5852249.52% at 44.07% -0.44%, #008F76 0%, rgba(148, 148, 148, 0) 100%);
+    left: 20px;
+
+
+}
+
+.main__img {
+    padding-top: 100px;
+
+}
