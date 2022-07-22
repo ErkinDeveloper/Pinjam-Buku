@@ -3,6 +3,7 @@
 @import "./fonts";
 @import "general";
 @import "./all-blocks/all-blocks";
+@import "./images";
 
 
 
@@ -299,7 +300,7 @@
 
 
 .mewarnai__card-img {
-   background-image: url("/images/mewarnai_img.png");
+   background-image: url("./images/mewarnai_img.png");
    background-repeat: no-repeat;
    background-size: cover;
    width: 381px;
@@ -309,7 +310,7 @@
 }
 
 .ngelapak__card-img {
-   background-image: url("/images/Ngelapak-img.png");
+   background-image: url("./images/Ngelapak-img.png");
    background-repeat: no-repeat;
    background-size: cover;
    width: 381px;
@@ -320,7 +321,7 @@
 
 
 .donasi__card-img {
-   background-image: url("/images/./danasi-img.png");
+   background-image: url("./images/danasi-img.png");
    background-repeat: no-repeat;
    background-size: cover;
    width: 381px;
